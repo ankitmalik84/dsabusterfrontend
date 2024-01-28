@@ -77,7 +77,10 @@ function LoginForm() {
         </Link> */}
           </label>
           <p className="message">
-            Not Registerd? <a href="/signup">Create an account</a>
+            Not Registerd?{" "}
+            <a href="https://tiny-sundae-162a24.netlify.app/signup">
+              Create an account
+            </a>
           </p>
           <button type="submit">Sign In</button>
         </form>
