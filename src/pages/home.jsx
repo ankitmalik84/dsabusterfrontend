@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { logout, login } from "../operations/authAPI";
+import { logout } from "../operations/authAPI";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 

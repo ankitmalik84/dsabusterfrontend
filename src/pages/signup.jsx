@@ -4,7 +4,7 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { setSignupData } from "../slices/authSlice";
-import { sendOtp, signUp } from "../operations/authAPI";
+import { sendOtp } from "../operations/authAPI";
 
 function SignupForm() {
   const navigate = useNavigate();
